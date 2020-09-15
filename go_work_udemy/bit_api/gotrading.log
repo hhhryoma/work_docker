@@ -1,0 +1,24 @@
+2020/07/24 17:23:40 main.go:13: test
+2020/07/25 09:19:29 bitFlyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2020/07/25 09:19:29 bitFlyer.go:32: 1595668769
+2020/07/25 09:19:30 bitFlyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2020/07/25 09:19:30 bitFlyer.go:102: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitFlyer.Balance
+2020/07/25 09:24:03 bitFlyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2020/07/25 09:24:03 bitFlyer.go:32: 1595669043
+2020/07/25 09:24:03 bitFlyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2020/07/25 09:24:03 bitFlyer.go:102: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitFlyer.Balance
+2020/07/25 09:25:15 bitFlyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/me/getbalance
+2020/07/25 09:25:15 bitFlyer.go:32: 1595669115
+2020/07/25 09:25:15 bitFlyer.go:94: url=me/getbalance resp={"status":-500,"error_message":"Key not found","data":null}
+2020/07/25 09:25:15 bitFlyer.go:101: [123 34 115 116 97 116 117 115 34 58 45 53 48 48 44 34 101 114 114 111 114 95 109 101 115 115 97 103 101 34 58 34 75 101 121 32 110 111 116 32 102 111 117 110 100 34 44 34 100 97 116 97 34 58 110 117 108 108 125]
+2020/07/25 09:25:15 bitFlyer.go:103: action=GetBalance err=json: cannot unmarshal object into Go value of type []bitFlyer.Balance
+2020/07/25 09:43:35 bitFlyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2020/07/25 09:43:35 bitFlyer.go:32: 1595670215
+2020/07/25 09:43:35 bitFlyer.go:144: url=ticker resp=
+2020/07/25 09:43:45 bitFlyer.go:57: action=doRequest endpoint=https://api.bitflyer.com/v1/ticker
+2020/07/25 09:43:46 bitFlyer.go:32: 1595670226
+2020/07/25 09:43:46 bitFlyer.go:144: url=ticker resp=
+2020/07/25 10:16:26 bitFlyer.go:178: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2020/07/29 17:03:00 bitFlyer.go:178: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2020/07/29 17:19:23 bitFlyer.go:178: connecting to wss://ws.lightstream.bitflyer.com/json-rpc
+2020/07/29 20:50:20 bitFlyer.go:195: read: websocket: close 1006 (abnormal closure): unexpected EOF
